@@ -166,6 +166,8 @@ Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_bla
 
 ## Getting started
 
+Hello there!
+
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
 
