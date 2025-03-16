@@ -9,6 +9,7 @@ url: https://alanarteagav.github.io
 
 
 academia:
+  date_format: "%b %d"
   about_you: I love ferns, jazz, cats & computer science.
 
   social_links:
