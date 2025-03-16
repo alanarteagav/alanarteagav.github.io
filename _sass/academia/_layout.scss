@@ -125,6 +125,7 @@
   
   .contact-list,
   .social-media-list {
+    font-family: $content-font-family;
     list-style: none;
     margin-left: 0;
   }
@@ -214,6 +215,26 @@
     @include relative-font-size(1.2);
   }
   
+  .highlight-link {
+    color: $highlight-color;
+    text-decoration: none;
+  
+    &:hover {
+      color: lighten($highlight-color, 7%);
+      text-decoration: underline;
+    }
+  }
+
+  .social-link {
+    color: $social-color;
+    text-decoration: none;
+  
+    &:hover {
+      color: $social-color;
+      text-decoration: underline;
+    }
+  }
+
   .black-link {
     color: $text-color;
     text-decoration: none;
@@ -223,9 +244,16 @@
       text-decoration: underline;
     }
   }
+
+    
+  .back-home {
+    margin-bottom: 5px;
+    color: lighten($home-color, 25%);
+  }
+  
   
   .post-back {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: lighten($text-color, 25%);
   }
   
@@ -330,9 +358,11 @@
           flex-direction: row;
           margin-top: 1rem;
           @include relative-font-size(1.5);
+          color: darken($text-color, 20%);
         }
   
         .about-description {
+          font-family: $content-font-family;
           margin-top: -0.6rem;
           @include relative-font-size(1);
           color: lighten($text-color, 25%);

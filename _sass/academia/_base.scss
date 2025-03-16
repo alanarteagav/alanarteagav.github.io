@@ -147,6 +147,12 @@
    margin-top: 2rem;
    font-weight: $base-font-weight;
  }
+
+ h2 {
+  font-family: $header-font-family;
+  font-weight: bold;
+  color: lighten($text-color, 15%);
+ }
  
  /**
    * Links
@@ -165,7 +171,7 @@
    */
  blockquote {
    color: $grey-color;
-   border-left: 4px solid $grey-color-light;
+   border-left: 4px solid $grey-color;
    padding-left: $spacing-unit / 2;
    @include relative-font-size(1);
    // letter-spacing: -1px;

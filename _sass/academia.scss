@@ -3,7 +3,12 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Baskervville", 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Baskervville", sans-serif;
+$content-font-family : "Source Serif 4";
+$header-font-family : "Baskervville";
+$literary-font-family : "Baskervville";
+$blog-font-family : "Baskervville";
+
+$base-font-family: "Baskervville", "Heebo", 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Baskervville", sans-serif;
 $base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
@@ -12,11 +17,20 @@ $small-line-height: 1.6 !default;
 
 $spacing-unit: 30px !default;
 
+// Common colors
+$social-color: #6389b8 !default;
+
+$header-color: #acacac !default;
+
+
 $text-color: #f8f8f8 !default;
 $background-color: #1E1E1E !default;
 $brand-color: #2a7ae2 !default;
 
 $code-bg-color: #134e69 !default;
+
+$highlight-color: #1768b0 !default;
+$home-color: #1768b0 !default;
 
 $grey-color: #ababab !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
