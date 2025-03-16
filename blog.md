@@ -1,6 +1,6 @@
 ---
-layout: about
-title: About
+layout: blog
+title: Blog
 ---
 
 > One whose LaTeX was writ in water
@@ -12,6 +12,5 @@ Currently, I'm building my own Jekyll theme codenamed `Academia`.
 ### What's New
 
 - Doing some math.
-
 
 

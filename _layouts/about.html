@@ -6,9 +6,29 @@ layout: default
   <head>
     <title>{{ site.author }}</title>
   </head>
+  
   <div class="post-back">
     <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
   </div>
+
+  <div class="about-header">
+    {%- if site.url -%}
+    <img class="about-avatar" src="{{ site.url }}/assets/images/profile.jpg" />
+    {%- endif -%} 
+    {%- if site.author -%}
+    <div class="about-info">
+      <div class="about-your-name">
+        {{ site.author | escape }}
+      </div>
+      {%- if site.academia.about_you -%}
+      <p class="about-description">
+        {{ site.academia.about_you | escape }}
+      </p>
+      {%- endif -%}
+
+      {%- include social.html -%}
+    </div>
+    {%- endif -%}
   
   <div class="about-content e-content" itemprop="articleBody">
     {{ content }}

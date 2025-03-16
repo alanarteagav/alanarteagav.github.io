@@ -1,5 +1,21 @@
-title: Academia
-author: Author
-email: mail@domain.com
+title: Albion
+author: Alan Arteaga
+email: alanarteagav@gmail.com
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  An academic-focused personal webpage.
 
 url: https://alanarteagav.github.io
+
+
+academia:
+  about_you: I love ferns, jazz, cats & computer science [🌿,🎹,🐈,💻]
+
+  social_links:
+    github: alanarteagav  
+    facebook: alanarteagav
+    linkedin: alanarteagav
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

@@ -2,10 +2,24 @@
 layout: default
 ---
 
-<h1>{{ site.title }}</h1>
+<head>
+    <title>{{ site.title }}</title>
+</head>
 
-{{ "Hello World!" | downcase }}
+<div class="home-title">
+  <p class="home-heading">{{ site.title }}</p>
+  <p class="home-sub-heading">{{- site.description | escape -}}</p>
+</div>
 
-{{ site.author }}
-{{ site.email }}
+<ul class="post-list">
+    <li>
+        <h2 class="post-year"> Blogs </h2>
+        <span class="post-meta">
+          i.
+        </span>
+        <a class="black-link post-link-layout" href="{{ site.url }}/blog">
+          all entries
+        </a>
+    </li>
+</ul>
 
