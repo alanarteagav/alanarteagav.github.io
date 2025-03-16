@@ -1,8 +1,4 @@
 --- 
-title: hello
+title: Title I
 layout: home
 ---
-
-Hello!
-
-This is a site
