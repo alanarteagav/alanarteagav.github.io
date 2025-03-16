@@ -7,8 +7,12 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   
+  <div class="back-home">
+    <a class="highlight-link" href="{{ site.url | relative_url }}"> ⌂ home </a>
+  </div>
+
   <div class="post-back">
-    <a class="black-link" href="{{ site.url | relative_url }}"> ← {{ site.moving.back_to }} </a>
+    <a class="black-link" href="{{ site.url | relative_url }}"> ↩ {{ site.moving.back_to }} </a>
   </div>
 
   <div class="home-title">
@@ -27,7 +31,7 @@ layout: default
       {% endif %}
   
       <li>
-          {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+          {%- assign date_format = site.academia.date_format | default: "%b %-d, %Y" -%}
           <span class="post-meta">
             {{ post.date | date: date_format }}
           </span>
