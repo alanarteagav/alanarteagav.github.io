@@ -170,15 +170,16 @@
    * Blockquotes
    */
  blockquote {
+   font-family: $literary-font-family;
    color: $grey-color;
    border-left: 4px solid $grey-color;
    padding-left: $spacing-unit / 2;
-   @include relative-font-size(1);
+   @include relative-font-size(1.1);
    // letter-spacing: -1px;
-   font-style: italic;
+   // font-style: italic;
  
  @media (max-width: 600px) {
-   @include relative-font-size(0.8);
+   @include relative-font-size(1.1);
  }
  
    > :last-child {

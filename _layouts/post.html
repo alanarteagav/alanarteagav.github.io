@@ -15,7 +15,7 @@ layout: default
   </head>
   <header class="post-header">
     <div class="post-back">
-      <a class="black-link" href="{{ site.url | relative_url }}/blog">
+      <a class="black-link" onclick="window.history.back()">
         ← {{ site.moving.back_to }}
       </a>
     </div>
@@ -33,6 +33,15 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%} •
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
+        ><span class="p-author h-card" itemprop="name">{{
+          page.author | escape
+        }}</span></span
+      >
+      {%- endif -%}
+
+
+      {%- if page.tags -%}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"
         ><span class="p-author h-card" itemprop="name">{{
           page.author | escape

@@ -199,7 +199,7 @@
     min-width: 60px;
   
     @media (max-width: 500px) {
-      @include relative-font-size(0.8);
+      @include relative-font-size(1);
     }
   
     @include relative-font-size(1);

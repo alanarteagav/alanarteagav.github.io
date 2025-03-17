@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Sleep And Poetry, an extract"
-categories: misc
+categories: poetry songs
+tags: poetry
 ---
 
 > What is more tranquil than a musk-rose blowing \
